@@ -14,17 +14,18 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <form class="search-form">
+    <form class="img-search-form">
       <input
-        class="search-input"
         type="search"
-        name="search"
+        name="query"
+        class="img-search-input"
         placeholder="Search images..."
-      /><button class="search-btn" type="submit">Search</button>
+      />
+      <button class="img-search-btn" type="submit">Search</button>
     </form>
-    <div class="cards">
-      <span class="loader is-hidden"></span>
-      <ul class="card-list"></ul>
+    <div class="gallery-wrapper">
+      <span class="loader hidden"></span>
+      <ul class="gallery"></ul>
     </div>
 
     <script type="module" src="./main.js"></script>
